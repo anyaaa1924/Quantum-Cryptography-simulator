@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quantum Cryptography Simulator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        form {
+            text-align: center;
+        }
+        #resultContainer {
+            margin-top: 20px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            background-color: #f9f9f9;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quantum Cryptography Simulator</h1>
+    <form action="" method="post">
+        <label for="aliceChoice">Alice's Choice:</label>
+        <select id="aliceChoice" name="aliceChoice">
+            <option value="A">A</option>
+            <option value="B">B</option>
+        </select>
+        <br>
+        <label for="bobChoice">Bob's Choice:</label>
+        <select id="bobChoice" name="bobChoice">
+            <option value="A">A</option>
+            <option value="B">B</option>
+        </select>
+        <br>
+        <button type="submit">Submit Choices</button>
+    </form>
+    <div id="resultContainer">
+        <!-- Result from the backend will be displayed here -->
+    </div>
+</body>
+</html>
